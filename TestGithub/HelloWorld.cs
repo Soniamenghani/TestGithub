@@ -28,7 +28,7 @@ namespace TestGithub
 
             return name == null
                 ? req.CreateResponse(HttpStatusCode.BadRequest, "Please pass a name on the query string or in the request body")
-                : req.CreateResponse(HttpStatusCode.OK, "Hello again " + name);
+                : req.CreateResponse(HttpStatusCode.OK, "Hello How are You " + name);
         }
     }
 }
